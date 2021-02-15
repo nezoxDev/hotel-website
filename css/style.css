@@ -52,6 +52,7 @@
 }
 .l-heading {
 	font-size: 40px;
+	line-height: 1.2;
 }
 /* Padding */
 .py-1 {
@@ -91,7 +92,7 @@ p {
 #navbar a {
 	color: #fff;
 }
-#navbar h1 {
+#navbar .logo {
 	float: left;
 	padding-top: 20px;
 }
@@ -133,7 +134,7 @@ p {
 
 /* Home-info */
 #home-info {
-	height: 400px;
+	height: 550px;
 }
 #home-info .info-img {
 	float: left;
@@ -184,7 +185,7 @@ p {
 
 /* Tetimonials */
 #testimonials {
-	height: 600px;
+	height: 100%;
 	padding-top: 100px;
 	background: url("../img/test-bg.jpg") center center/cover;
 }
